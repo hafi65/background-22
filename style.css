@@ -1,0 +1,30 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+    background-color: #e867675b;
+    
+    height: 100vh;
+}
+p{
+    width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(206, 61, 61);
+    
+
+    background-color: #a296f3;
+    background-image: url("images.jpg");
+    background-repeat: no-repeat
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    
+    transition: background 0.3s ease-in-out;
+}
+.background-container:hover {
+    background-image: radial-gradient(circle, #8bda8b, #8279be), url(images.jpg);
+}
